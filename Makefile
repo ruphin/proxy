@@ -6,4 +6,3 @@ dhparam.pem:
 production: dhparam.pem
 	docker pull nginx:alpine
 	docker build -t ruphin/proxy .
-	docker push ruphin/proxy
